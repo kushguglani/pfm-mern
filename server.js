@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 
 //path is used to go back a directory neatly by __dirname , '../public'
 const path = require('path');
-const publicPath = path.join(__dirname, './build');
+const publicPath = path.join(__dirname, './public');
 
 //setup the server to serve static files from the public folder
 app.use(express.static(publicPath));
