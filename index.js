@@ -6,6 +6,8 @@ const { Product } = require('./model/product');
 
 const port = process.env.PORT || 8080;
 const app = express();
+console.log(process.env.MONGO_URI);
+
 const mongoUrl = process.env.MONGO_URI || 'mongodb://localhost:27017/pms';
 
 const cors = require('cors');
