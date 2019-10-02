@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080;
 const app = express();
 console.log("Kush is always khush");
 
-console.log(process.env.MONGO_URI);
+console.log(process.env.URL);
 console.log(process.env.PORT);
 
 const mongoUrl = process.env.MONGO_URI || 'mongodb://localhost:27017/pms';
