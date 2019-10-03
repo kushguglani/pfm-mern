@@ -18,7 +18,6 @@ app.use(cors());
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-// 'mongodb://kush:123456@ds011800.mlab.com:11800/kush'
 // mongoose connection
 
 
