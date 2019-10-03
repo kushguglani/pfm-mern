@@ -1,5 +1,5 @@
 # pfm-mern
-# React build served with node express
+## React build served with node express
 # It's a full stack MERN APP
 # MONGODB as a database
 # Express as a middleware
